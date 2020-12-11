@@ -595,6 +595,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Squir1: {fileID: 21300000, guid: 810425c6299754c7d83c2b5f27d1ec55, type: 3}
   Squir2: {fileID: 21300000, guid: 9b2b0eebce57f458b90f06ec3a8199e6, type: 3}
+  range: 200
 --- !u!1 &922951749
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,6 +969,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Squir1: {fileID: 21300000, guid: 810425c6299754c7d83c2b5f27d1ec55, type: 3}
   Squir2: {fileID: 21300000, guid: 9b2b0eebce57f458b90f06ec3a8199e6, type: 3}
+  range: 200
 --- !u!1 &1813211670
 GameObject:
   m_ObjectHideFlags: 0
