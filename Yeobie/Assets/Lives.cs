@@ -6,8 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class Lives : MonoBehaviour
 {
+  
     [SerializeField] Text livesText;
-    public int lives;
+    public static int lives;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +19,7 @@ public class Lives : MonoBehaviour
     }
 
     void CheckLoss() {
+      
       if (lives == 0) {
         SceneManager.LoadScene("LostScene");
       }
